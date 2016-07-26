@@ -373,7 +373,6 @@ public class ProjectXMapFragment extends Fragment implements OnMapReadyCallback,
                 default:
                     errorMessage = "Unknown error";
             }
-
             Log.e("MapFragment - Geofence", errorMessage);
         }
     }
